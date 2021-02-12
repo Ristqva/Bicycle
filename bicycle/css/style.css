@@ -13,7 +13,7 @@
     background: url('../img/bg.png') center center/cover no-repeat;
 }
 .top_list {
-    margin-left: 75px;
+    margin-left: 80px;
     padding-top: 35px;
     display: flex;
     justify-content: center;
@@ -62,6 +62,7 @@
     float: right;
     background: url('../img/bike1_right_bg.png');
     max-width: 534px;
+    max-height: 600px;
 }
 .bike1_icon {
     padding-top: 70px;
@@ -88,7 +89,95 @@
     font-weight: 400;
     font-family: "Lato";
     text-align: left;
+    margin-left: 70px;
+    margin-top: 23px;
 }
 .bike1_right_img {
-    padding-top: 100px;
+    margin-top: 77px;
+}
+.bike2 {
+    max-height: 600px;
+}
+.bike2_left {
+    float:left;
+    max-width: 534px;
+}
+.bike2_icon {
+    padding-top: 69px;
+    display: block;
+    margin: 0 auto;
+}
+.bike2_title {
+    margin-top: 27px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #353738;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+.bike2_descr {
+    margin-top: 26px;
+    display: flex;
+    width: 397px;
+    height: 147px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #848789;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    margin-left: 69px;
+}
+.bike2_left_img {
+    padding-top:78px;
+}
+.bike2_logo {
+    display: block;
+    margin: 0 auto;
+}
+.bike2_right {
+    padding-top: 224px;
+    padding-bottom: 224px;
+    display: flex;
+    max-width: 1067px;
+    background-image: url('../img/bike2_right_bg.png');
+}
+.bike3 {
+    display: flex;
+    max-height: 600px;
+}
+.bike3_left {
+    max-width: 534px;
+    background-image: url(../img/bike3_left_bg.png);
+}
+.bike3_left_logo {
+    padding-left: 162px;
+    padding-right: 163px;
+    padding-top: 265px;
+    padding-bottom: 265px;
+    display: block;
+    margin: 0 auto;
+}
+.bike3_center {
+    max-width: 534px;
+    margin: 0 auto;
+}
+.bike3_title {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #353738;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+}
+.bike3_descr {
+    width: 397px;
+    height: 147px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #848789;
+    font-weight: 400;
+    font-family: "Lato";
 }
